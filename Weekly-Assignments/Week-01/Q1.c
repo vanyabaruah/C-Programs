@@ -1,0 +1,20 @@
+# include <stdio.h>
+int main()
+{
+    float a,b,c,d,f,t,p,av;
+    printf("enter the marks for sub1: ");
+    scanf("%f",&a);
+    printf("enter the marks for sub2: ");
+    scanf("%f",&b);
+    printf("enter the marks for sub3: ");
+    scanf("%f",&c);
+    printf("enter the marks for sub4: ");
+    scanf("%f",&d);
+    printf("enter the marks for sub5: ");
+    scanf("%f",&f);
+    t=a+b+c+d+f;
+    av=t/5;
+    p=(t/500)*100;
+    printf("your average marks are %f",av);
+    printf("percentage is %f",p);
+}
